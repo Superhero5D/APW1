@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Website</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+  </head>
+  <body>
+    <main>
+        <h1>Senior Game Project Proposal Page</h1>  
+        <b1> For my project I am working with Will Griggs, Shadab Sharif, Michael Pineda, and Andrew Downey. We are working on a game that will feature boardgame like mechanics. The reason we want to make this through code is that we can have a lot more random elements than are possible with a board. This means that we can create a game with a lot of replay value. The Following is all of the work we have put in for the games framework
+        </b1>
+        <b2>
+          1-4 Players live in the town. A nearby earthquake unearths a new cave. Strange noises have emerged and four brave mercenaries enter, facing certain danger and mythical treasure. <br>
+<br>
+Genre: Boardgame RPG (Dokapon Kingdom)<br>
+<br>
+<br>
+Classes:<br>
+Rogue: <br>
+Board Passive: <br>
+25% chance to be immune to traps<br>
+Battle Ability:<br>
+Purloin: Steals a random move from a target / or switches a random stat with the target<br>
+Battle Passive:<br>
+10% chance to dodge attack<br>
+<br>
+<br>
+Mage:<br>
+  Board Passive: Every 3 turns conjures an extra dice for movement. Goes into inventory<br>
+  Fight Ability:<br>
+    Fireball:<br>
+Does a good amount of damage. Has a 20 percent chance to ignite target <br>
+  Battle Passive:<br>
+    Magic Mirror:<br>
+  Mage has a 5% chance to mirror all damage done in an action. Mage still takes damage from action.<br>
+
+Brute:<br>
+  Board Passive: BattleCry <br>
+        Add +1-3 every turn if it would get you to an enemy or if you fought an enemy last turn.<br>
+  Fight Ability:<br>
+Mordhau Strike:<br>
+          The user quickly hits their target with the back of their weapon causing them to take damage and have a 50% chance to flinch and miss their next turn.<br>
+  Battle Passive: Blood Fueled rage:<br>
+    Every turn after you are hit you deal x2 damage. Goes on cooldown after damage is multiplied. This effect refreshes every three moves.<br>
+<br>
+Hunter:<br>
+Passive Ability: Hunter can place one of three traps at the end of each turn which can either help or hurt other players<br>
+  Trap one: Quicksand pit: If a player lands on this space they are sent back to where they started the turn and repeat effects of the space<br>
+  Trap two: Picnic Lunch: If a player lands on this space they are fully healed and get +1 on their next roll. This effect is given to the hunter who places this trap as well upon casting<br>
+Fight Ability: Barbed Bola.<br>
+  Trap three: Enraging Incense: This trap attracts a stronger encounter to the next person who steps on this square. This increase in difficulty also increases rewards significantly
+This ability can not be used twice within 3 rounds and has a 50% if over half health. If the target would be attacked this turn they are instead ensnared forcing them to miss the attack and take further damage if they attack next turn.
+Battle Passive: Always win their coin flips<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+Battles start with a coin flip. The player that initiated the fight choses a side. Whoever wins the coin flip goes first<br>
+<br>
+<br>
+ROOM MECHANICS:<br>
+<br>
+SIZE MODIFIER: This Modifier is based on how big the room is and thus how hard it is to complete. This means that the treasure at the end of the room is better compensation for efforts.
+<br>
+  XSmall Room 5-10<br>
+    No modifier<br>
+Small Room: 10-14 tiles to treasure<br>
+  +2 treasure modifier<br>
+Medium Room: 14-20 tiles to treasure<br>
+  +3 treasure modifier<br>
+Large Room: 20-30 tiles to treasure<br>
+  +4 treasure modifier<br>
+XL Room: 30-40 tiles to treasure<br>
+  +6 Treasure Modifier  <br>
+<br>
+<br>
+RANDOM MODIFIER: This modifies the types of challenges that will occur in dungeon rooms. This could mean that the player may have worse dice or just different types of enemies. The modifier will be different for spawn rooms. <br>
+<br>
+<br>
+  Sticky Modifier: Caps all dice rolls at 4
+  +4 treasure modifier<br>
+<br>
+  Webbed Modifier: -1 to all dice rolls. If final count ends up being 0 player must fight a spider<br>
+<br>
+  +3 treasure Modifier<br>
+<br>
+  Dark Modifier: Player loses all non-player combat dice rolls<br>
+<br>
+  +2 Treasure<br>
+<br>
+<br>
+TREASURE MODIFIER: This is the final counter of treasure which adds up all of the challenges in the room. In addition to any modifications which come from the first two modifiers, there is an additional “Contested” bonus which comes if two or more people are in that room and close to the treasure. If there is another player within one dice roll of the treasure this bonus doubles. This same bonus is gained if a player was defeated by claiming player within that room. This modifier is not used on the spawn levels of the dungeon<br>
+  
+  Contested: Player in room<br>
+  +1 treasure<br>
+  Contested: Player within 6 spaces<br>
+  +1 treasure (two with Player in room)<br>
+  Contested: Defeated a player in room<br>
+  +2 per defeated player.<br>
+<br>
+<br>
+Room Layout: <br>
+<br>
+  Every room will be assigned a value based on where the doors are. Some doors will be locked visibly until the treasure for that room has been claimed. This means that players cannot swoop in to steal treasure and must instead go the same path as whoever opened that room.<br>
+<br>
+<br>
+On Every floor of the dungeon there will be three staircases to reach the boss of the floor. Upon beating this boss the player will be sent to the next floor. Being the first to reach a new floor of a dungeon comes with a bonus of X number of stat points. If multiple players kill the boss at the same time they both get equal rewards and bonuses.<br>
+<br>
+Bosses:<br>
+Each Floor contains a difficult boss that MUST be defeated in order to progress. Killing these bosses <br>
+  At least two doors with a max of three. For every door there will be a possible spot for treasure. This way the player will never be placed next to the treasure.<br>
+<br>
+        </b2>
+    </main>
+	<script src="index.js"></script>
+  </body>
+</html>
